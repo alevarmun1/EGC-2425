@@ -20,7 +20,7 @@ db = SQLAlchemy()
 migrate = Migrate()
 
 
-# Solucionar ejercicio 5
+# Solución del ejercicio 5
 def create_app(config_name='development'):
     app = Flask(__name__)
 
